@@ -14,7 +14,7 @@ An interractive PowerBI dashboard can be downloaded [here]()
 # Data Structure & Initial Checks
 The Excel raw data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
 
-Image of table here->
+![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/2c9f2cb52248f81d8c53f1cd8ecce258a0b503b4/manufacturing_downtime-erd.png)
 
 Prior to begining the analysis, a variety of checks where conducted for quality control and familiarization with datasets. The raw data file can be found [here]()
 

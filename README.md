@@ -12,7 +12,7 @@ Insights and recommendations are provided on the following key areas:
 An interractive PowerBI dashboard can be downloaded [here]()
 
 # Data Structure & Initial Checks
-The Excel raw data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
+The CSV data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
 
 ![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/2c9f2cb52248f81d8c53f1cd8ecce258a0b503b4/manufacturing_downtime-erd.png)
 
@@ -21,6 +21,8 @@ Prior to begining the analysis, a variety of checks where conducted for quality 
 # Executive Summary
 
 ### Overview Findings
+
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be downloaded [here]()
 
 ### Recommendations:
 Based on the unconvered insights, the following recommendations have been provided;

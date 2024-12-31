@@ -1,5 +1,5 @@
 # Project Background
-Soda Bottling Production Company
+Manufacturing Downtime
 
 The company has significant amount of data on its manufacturing Productivity and Downtime that has been previously underutilized. 
 This project thoroughly analyzes and synthesizes the data in order to uncover critical insight that will improve the bottling production line success.
@@ -10,7 +10,7 @@ Insights and recommendations are provided on the following key areas:
 - **Downtime Factor:** An assessment on the leading factor of downtime.
 - **Operator Challenges:** An evaluation on operators struggle with particular types of operator's controllable error.
 
-An interractive PowerBI dashboard can be downloaded [here]()
+An interractive PowerBI dashboard can be downloaded [here](https://app.powerbi.com/view?r=eyJrIjoiY2E0NjhlODEtOTA2My00Nzc5LTgwN2UtMmU4ZDRlZTUxNTk0IiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
 
 # Data Structure & Initial Checks
 The CSV data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.

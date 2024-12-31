@@ -72,13 +72,13 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
     - **Labelling Switch**: 2.38% Minimal impact; still worth monitoring for further reduction.
     - **Product Spill**: 4.11% Suggests some inefficiency in handling or equipment setup.
     - **Others**: 5.33% Catch-all category; further analysis may be needed to identify and address recurring issues.
-![image_alt]()
+![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/a6b32c30a6a03ec254fc0555ea5ceb4cad888d8e/dowtime-factor.jpg)
 ##### Operator Challenges:
 - 
 -
 -
 -
-
+![image_alt]()
 ### Recommendations:
 Based on the unconvered insights, the following recommendations have been provided;
 - Investigate factors affecting Dennis’s performance (e.g., complexity of tasks, resource availability, or skills gap).

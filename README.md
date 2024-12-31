@@ -27,7 +27,7 @@ The current line efficiency, at a critically low 11%, underscores significant op
 Downtime factors further illustrate systemic issues impacting productivity. Machine Adjustment (23.92%) and Machine Failure (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. Inventory shortages (16.21%) and batch-related issues such as Batch Changes (11.53%) and Batch Coding Errors (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with Machine Adjustments (118 and 120 errors, respectively), while Mac's high Batch Change errors (130) indicate procedural inefficiencies. Dee shows gaps in Calibration (25 errors) and Labelling Switches (23 errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be downloaded [here]()
-![image_alt]()
+![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/8594047cfcb302ebd0e9a7a561ffe0023b2ced96/overview.jpg)
 
 #### Operator Performance:
 - Highest Efficiency: Mac (71.94%) – likely due to focus on fewer time-consuming tasks.

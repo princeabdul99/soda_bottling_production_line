@@ -1,7 +1,8 @@
 # Project Background
 **Manufacturing Downtime**
 
-The company has significant amount of data on its manufacturing Productivity and Downtime that has been previously underutilized. 
+Productivity & downtime data for a soda bottling production line, including information on the operator, product, start & end times, and dowtime factors for each batch.
+
 This project thoroughly analyzes and synthesizes the data in order to uncover critical insight that will improve the bottling production line success.
 
 Insights and recommendations are provided on the following key areas:
@@ -22,11 +23,11 @@ Prior to begining the analysis, a variety of checks where conducted for quality 
 # Executive Summary
 
 ### Overview Findings
-The current line efficiency, at a critically low 11%, underscores significant operational inefficiencies that demand immediate attention. Operator performance analysis reveals varying levels of productivity and efficiency. Charles and Dee show moderate performance, achieving efficiencies of 66.84% and 64.08% while working on three products each. Dennis exhibits slightly lower efficiency (63.17%) with three products, indicating potential underperformance. Mac, although achieving the highest efficiency at 71.94%, works on four products with the lowest productivity (12hrs or 720 minutes), suggesting an imbalance in workload distribution and operational capability. These findings highlight the need for a more strategic allocation of tasks and enhanced performance support.
+The current line efficiency, at a critically low 11%, underscores significant operational inefficiencies that demand immediate attention. Operator performance analysis reveals varying levels of productivity and efficiency. Charles and Dee show moderate performance, achieving efficiencies of 66.84% and 64.08% while working on three products each. Dennis exhibits slightly lower efficiency (63.17%) with three products, indicating potential underperformance. Mac, although achieving the highest efficiency at 71.94%, works on four products with the lowest productivity time (12hrs or 720 minutes), suggesting an imbalance in workload distribution and operational capability. These findings highlight the need for a more strategic allocation of tasks and enhanced performance support.
 
-Downtime factors further illustrate systemic issues impacting productivity. Machine Adjustment (23.92%) and Machine Failure (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. Inventory shortages (16.21%) and batch-related issues such as Batch Changes (11.53%) and Batch Coding Errors (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with Machine Adjustments (118 and 120 errors, respectively), while Mac's high Batch Change errors (130) indicate procedural inefficiencies. Dee shows gaps in Calibration (25 errors) and Labelling Switches (23 errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime.
+Downtime factors further illustrate systemic issues impacting productivity. **Machine Adjustment** (23.92%) and **Machine Failure** (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. **Inventory shortages** (16.21%) and batch-related issues such as **Batch Changes** (11.53%) and **Batch Coding Errors** (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with **Machine Adjustments** (118 and 120 minutes errors, respectively), while Mac's high **Batch Change errors**(130 mins) indicate procedural inefficiencies. Dee shows gaps in **Calibration** (25 mins errors) and **Labelling Switches** (23 mins errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime.
 
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be downloaded [here]()
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiY2E0NjhlODEtOTA2My00Nzc5LTgwN2UtMmU4ZDRlZTUxNTk0IiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
 ![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/8594047cfcb302ebd0e9a7a561ffe0023b2ced96/overview.jpg)
 
 #### Operator Performance:
@@ -72,15 +73,43 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
     - **Labelling Switch**: 2.38% Minimal impact; still worth monitoring for further reduction.
     - **Product Spill**: 4.11% Suggests some inefficiency in handling or equipment setup.
     - **Others**: 5.33% Catch-all category; further analysis may be needed to identify and address recurring issues.
+
+
 ![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/a6b32c30a6a03ec254fc0555ea5ceb4cad888d8e/dowtime-factor.jpg)
-##### Operator Challenges:
-- 
--
--
--
-![image_alt]()
+
+#### Operator Challenges:
+- **Charles**
+      - Struggles significantly with Machine Adjustment (118 mins errors), the highest for this category.
+      - Moderate issues with Batch Coding Errors (46 mins) and Calibration Errors (24 mins).
+      
+- **Dee**
+      - Exhibits a balanced error distribution but stands out in Labelling Switch Errors (23 mins) and Calibration Errors (25 mins).
+      
+- **Dennis**
+      - Machine Adjustment (120 mins errors) is a clear area of struggle, the highest among operators.
+  
+- **Mac**
+      - Exceptional struggles with Batch Changes (130 mins errors), far exceeding others in this category.
+      - Moderate issues with Batch Coding Errors (47 mins).
+
+  
+![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/087872658037b1549eb096258b96a435ee0c6160/operator%20downtime%20factor.jpg)
+
 ### Recommendations:
 Based on the unconvered insights, the following recommendations have been provided;
-- Investigate factors affecting Dennis’s performance (e.g., complexity of tasks, resource availability, or skills gap).
-- Consider if Mac’s higher efficiency could be leveraged to redistribute tasks or optimize workflows.
-- Maintain monitoring of Dee's and Charles’s performance to ensure consistency.
+1. **Training and Skill Development:**
+   - **Charles and Dennis**: Provide targeted training on equipment operation and maintenance to reduce **Machine Adjustment** errors.
+   - **Mac**: Conduct training on batch change procedures and explore automation to reduce manual interventions.
+
+2. **Process Optimization:**
+   - Review and streamline Batch Change workflows, especially for **Mac**, to identify inefficiencies and implement improvements.
+   - Standardize calibration procedures and enhance quality control to address issues faced by **Charles and Dee**.
+
+3. **Enhanced Monitoring and Support:**
+   - Implement real-time error monitoring to identify recurring patterns and address issues promptly.
+   - Assign mentors or supervisors to operators with high error counts for immediate feedback and guidance.
+
+4. **Invest in Automation:**
+   - Evaluate opportunities for automation in high-error processes, such as **Batch Changes** and **Machine Adjustments**, to reduce reliance on manual operations and improve consistency.
+
+By focusing on these targeted interventions, overall operator performance can be enhanced, reducing errors and improving operational efficiency.

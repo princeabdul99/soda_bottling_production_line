@@ -68,3 +68,6 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ### Recommendations:
 Based on the unconvered insights, the following recommendations have been provided;
+- Investigate factors affecting Dennis’s performance (e.g., complexity of tasks, resource availability, or skills gap).
+- Consider if Mac’s higher efficiency could be leveraged to redistribute tasks or optimize workflows.
+- Maintain monitoring of Dee's and Charles’s performance to ensure consistency.

@@ -22,17 +22,39 @@ Prior to begining the analysis, a variety of checks where conducted for quality 
 # Executive Summary
 
 ### Overview Findings
-The current line efficiency, at a critically low 11%, underscores significant operational inefficiencies that demand immediate attention. Operator performance analysis reveals varying levels of productivity and efficiency. Charles and Dee show moderate performance, achieving efficiencies of 66.84% and 64.08% while working on three products each. Dennis exhibits slightly lower efficiency (63.17%) with three products, indicating potential underperformance. Mac, although achieving the highest efficiency at 71.94%, works on four products with the lowest productivity minutes (720), suggesting an imbalance in workload distribution and operational capability. These findings highlight the need for a more strategic allocation of tasks and enhanced performance support.
+The current line efficiency, at a critically low 11%, underscores significant operational inefficiencies that demand immediate attention. Operator performance analysis reveals varying levels of productivity and efficiency. Charles and Dee show moderate performance, achieving efficiencies of 66.84% and 64.08% while working on three products each. Dennis exhibits slightly lower efficiency (63.17%) with three products, indicating potential underperformance. Mac, although achieving the highest efficiency at 71.94%, works on four products with the lowest productivity (12hrs or 720 minutes), suggesting an imbalance in workload distribution and operational capability. These findings highlight the need for a more strategic allocation of tasks and enhanced performance support.
 
-Downtime factors further illustrate systemic issues impacting productivity. Machine Adjustment (23.92%) and Machine Failure (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. Inventory shortages (16.21%) and batch-related issues such as Batch Changes (11.53%) and Batch Coding Errors (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with Machine Adjustments (118 and 120 errors, respectively), while Mac's high Batch Change errors (130) indicate procedural inefficiencies. Dee shows gaps in Calibration (25 errors) and Labelling Switches (23 errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime
+Downtime factors further illustrate systemic issues impacting productivity. Machine Adjustment (23.92%) and Machine Failure (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. Inventory shortages (16.21%) and batch-related issues such as Batch Changes (11.53%) and Batch Coding Errors (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with Machine Adjustments (118 and 120 errors, respectively), while Mac's high Batch Change errors (130) indicate procedural inefficiencies. Dee shows gaps in Calibration (25 errors) and Labelling Switches (23 errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be downloaded [here]()
 
-##### Operator Performance:
-- Operator **Mac** performed efficiently higher than other operators with 72% efficiency, while other operators performed at 60% average.
-- Operator **Charles** worked more minutes than other operators record 1158 minutes.
-- Operator **Charles** and **Dee**  worked more batches recording 11 batches each, while **Dennis** and **Mac** recorded total of 8 batches each, 
-
+#### Operator Performance:
+- Highest Efficiency: Mac (71.94%) – likely due to focus on fewer time-consuming tasks.
+- Highest Productivity Hrs: Charles (19.30 Hrs or 1158 Minutes) – indicative of sustained engagement.
+- Potential Underperformance: Dennis has the lowest productivity and efficiency among those handling 3 products. May require additional training or workload adjustments.
+    ##### Individual Performance
+    - **Charles**
+        - Productivity Time: 19.30 Hrs or 1158 Minutes
+        - Operator Efficiency: 66.84%
+        - Number of Products Worked On: 3
+        - Observation: Moderate efficiency; productivity minutes are the highest among operators. No signs of underperformance.
+    - **Dee**
+        - Productivity Time: 17.17 Hrs or 1030 Minutes
+        - Operator Efficiency: 64.08%
+        - Number of Products Worked On: 3
+        - Observation: Slightly lower efficiency and productivity than Charles but still within acceptable range. No significant underperformance.
+    - **Dennis**
+        - Productivity Time: 13.67 Hrs or 820 Minutes
+        - Operator Efficiency: 63.17%
+        - Number of Products Worked On: 3
+        - Observation:  Lowest efficiency among operators working on 3 products. Productivity minutes are notably lower than Charles and Dee, indicating potential underperformance.
+    - **Mac**
+        - Productivity Time: 12 Hrs or 720 Minutes
+        - Operator Efficiency: 71.94%
+        - Number of Products Worked On:  4
+        - Observation: Highest efficiency but lowest productivity minutes. Managed to work on 4 products despite lower overall time. No significant underperformance.
+     
+          
 ##### Downtime Factor:
 - 
 -

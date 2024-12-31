@@ -8,9 +8,9 @@ Insights and recommendations are provided on the following key areas:
 - **Efficiency:** An evaluation on the current line of efficiency.
 - **Operator Performance:** An assessment on operators performance, understanding their impact on production.  
 - **Downtime Factor:** An assessment on the leading factor of downtime.
-- **Operator Challenges:** An evaluation on operators struggle with particular types of operator's controllable error.
+- **Operator Challenges:** An evaluation on operators challenges with different downtime factors.
 
-An interractive PowerBI dashboard can be downloaded [here](https://app.powerbi.com/view?r=eyJrIjoiY2E0NjhlODEtOTA2My00Nzc5LTgwN2UtMmU4ZDRlZTUxNTk0IiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
+An interractive PowerBI dashboard can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiY2E0NjhlODEtOTA2My00Nzc5LTgwN2UtMmU4ZDRlZTUxNTk0IiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
 
 # Data Structure & Initial Checks
 The CSV data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
@@ -22,11 +22,9 @@ Prior to begining the analysis, a variety of checks where conducted for quality 
 # Executive Summary
 
 ### Overview Findings
-Each operator performed efficiently and high above average. While there is no any underperformed operator, the production line efficency dropped low with **11%**.
-There are downtime factors that can be attributed to the low line of efficiency, with Machine Adjustment **24%**, Machine Failure **18%**, Inventory Shortage **16%** respectively, as the leading factors.
+The current line efficiency, at a critically low 11%, underscores significant operational inefficiencies that demand immediate attention. Operator performance analysis reveals varying levels of productivity and efficiency. Charles and Dee show moderate performance, achieving efficiencies of 66.84% and 64.08% while working on three products each. Dennis exhibits slightly lower efficiency (63.17%) with three products, indicating potential underperformance. Mac, although achieving the highest efficiency at 71.94%, works on four products with the lowest productivity minutes (720), suggesting an imbalance in workload distribution and operational capability. These findings highlight the need for a more strategic allocation of tasks and enhanced performance support.
 
-The downtime factors can be classified as controllable and uncontrollable error factor by operator, where all the operators struggle significantly with one or more controllable error factor.
-Like the Machine Adjustment **24%**, Batch Coding Error **10%** and Batch Change **12%**. The following section will explore other contributing factors and highlights key opportunity areas for improvement.
+Downtime factors further illustrate systemic issues impacting productivity. Machine Adjustment (23.92%) and Machine Failure (18.3%) are the leading contributors, indicating the need for improved equipment reliability and maintenance schedules. Inventory shortages (16.21%) and batch-related issues such as Batch Changes (11.53%) and Batch Coding Errors (10.45%) exacerbate inefficiencies. Operator-specific challenges reveal significant error rates: Charles and Dennis struggle with Machine Adjustments (118 and 120 errors, respectively), while Mac's high Batch Change errors (130) indicate procedural inefficiencies. Dee shows gaps in Calibration (25 errors) and Labelling Switches (23 errors), highlighting skill gaps in detail-oriented tasks. Addressing these issues through targeted training, workflow optimization, and investment in automation and preventive maintenance is critical to enhancing operational efficiency and minimizing downtime
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interractive dashboard can be downloaded [here]()
 

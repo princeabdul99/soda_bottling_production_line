@@ -18,7 +18,7 @@ The CSV data file consist of multiple tables: Products, Line productivity, Line 
 
 ![image_alt](https://github.com/princeabdul99/soda_bottling_production_line/blob/2c9f2cb52248f81d8c53f1cd8ecce258a0b503b4/manufacturing_downtime-erd.png)
 
-Prior to begining the analysis, a variety of checks where conducted for quality control and familiarization with datasets. The raw data file can be found [here]()
+Prior to begining the analysis, a variety of checks where conducted for quality control and familiarization with datasets. The raw data file can be found [here](https://github.com/princeabdul99/soda_bottling_production_line/blob/4d27e98112edfc2fea2ff01ce0e8c70130aa4d63/data.zip)
 
 # Executive Summary
 

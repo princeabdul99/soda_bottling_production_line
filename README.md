@@ -1,5 +1,5 @@
 # Project Background
-Manufacturing Downtime
+**Manufacturing Downtime**
 
 The company has significant amount of data on its manufacturing Productivity and Downtime that has been previously underutilized. 
 This project thoroughly analyzes and synthesizes the data in order to uncover critical insight that will improve the bottling production line success.
@@ -56,11 +56,23 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
         - Observation: Highest efficiency but lowest productivity minutes. Managed to work on 4 products despite lower overall time. No significant underperformance.
      
           
-##### Downtime Factor:
-- 
--
--
--
+#### Downtime Factor:
+- **Major Contributors to Downtime**
+    - **Machine Adjustment**: 23.92%. Leading cause of downtime, suggesting the need for regular maintenance or operator training to minimize adjustments.
+    - **Machine Failure**: 18.30%. Significant contributor to downtime, emphasizing the need for improved machine reliability or a preventive maintenance schedule.
+    - **Inventory Shortage**: 16.21% Highlights a supply chain or inventory management issue that needs attention.
+      
+- **Moderate Contributors**
+    - **Batch Change**: 11.53% Reflects time spent transitioning between batches. Streamlining processes could reduce downtime here.
+    - **Batch Coding Error**: 10.45% Indicates potential issues in the coding process that may require better automation or operator training.
+    
+- **Minor Contributors**
+    - **Calibration Error**: 3.53% Low impact but still requires periodic calibration checks.
+    - **Labelling Error**: 3.03% Indicates manageable but noticeable downtime due to labeling issues.
+    - **Labelling Switch**: 2.38% Minimal impact; still worth monitoring for further reduction.
+    - **Product Spill**: 4.11% Suggests some inefficiency in handling or equipment setup.
+    - **Others**: 5.33% Catch-all category; further analysis may be needed to identify and address recurring issues.
+![image_alt]()
 ##### Operator Challenges:
 - 
 -

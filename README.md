@@ -6,7 +6,7 @@ Productivity & downtime data for a soda bottling production line, including info
 This project thoroughly analyzes and synthesizes the data in order to uncover critical insight that will improve the bottling production line success.
 
 Insights and recommendations are provided on the following key areas:
-- **Line Efficiency:** AEvaluating current efficiency by comparing total operational time to minimum required time.
+- **Line Efficiency:** Evaluating current efficiency by comparing total operational time to minimum required time.
 - **Operator Performance:**  Identifying underperforming operators and analyzing trends in their output.
 - **Downtime Factor:** Determining the leading causes of downtime to mitigate inefficiencies.
 - **Operator Error Analysis:** Assessing whether specific operators face challenges with particular types of errors.
